@@ -3,8 +3,8 @@ package com.constant;
 public class Constants {
 	
 	public static final String URL="jdbc:mysql://localhost:3306/employee_Management";
-	public static final String DBUSERNAME="root";
-	public static final String DBPASSWORD="Kusuma@1698";
+	public static final String DBUSERNAME="Your_userName";
+	public static final String DBPASSWORD="Your_password";
 	
 	public static final String INSERT_ADMIN="insert into admins(username,email,password) values(?,?,?)";
 	public static final String SELECT_Login="select * from admins where username=? and password=?";
